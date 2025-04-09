@@ -12,7 +12,7 @@ export async function POST(req) {
       headers: {
         "Authorization": `Bearer ${apiKey}`,
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://namaproject.vercel.app", // ✅ ganti sesuai domainmu
+        "HTTP-Referer": "https://tes2-swart.vercel.app", // ✅ ganti sesuai domainmu
         "X-Title": "ChatBot Pintar",
       },
       body: JSON.stringify({
